@@ -12,7 +12,7 @@ let version = props.defaultVersion;
 </script>
 
 <template>
-  <div class="ch text-light w-sm-25 mr-auto px-3 bg-dark overflow-scroll border-end border-secondary">
+  <div class="ch text-light w-sm-25 mr-auto px-3 bg-dark overflow-hide border-end border-secondary">
     <div class="mx-auto my-2 w-25 d-flex justify-content-center px-2">
         <select class="me-2 rounded-pill ps-2 bg-dark text-white border-1 border-secondary" name="version" id="version" v-model="version" v-on:change="$forceUpdate();">
             <option key="ara" value="ara">ARA</option>
@@ -43,7 +43,6 @@ let version = props.defaultVersion;
 
 <style>
     .ch {
-        height: 93.5vh;
         min-width: 25%;
         overflow-x: hidden !important;
         scrollbar-color: var(--scroll-dark) var(--bg-dark) ;
