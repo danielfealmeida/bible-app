@@ -1,6 +1,13 @@
 <script setup>
+
 import BibleColumn from "./components/bible-column.vue";
-import ara from "./data/ARA.json"
+
+import { useBibleStore } from "./store/bibleStore.js"
+
+const store = useBibleStore();
+store.loadBibles();
+
+const { ara } = store;
 
 let book = 0;
 let chapter = 0;

@@ -1,9 +1,11 @@
 <script setup>
 
-import nvi from "../data/NVI.json"
-import naa from "../data/NAA.json"
-import ara from "../data/ARA.json"
-import arc from "../data/ARC.json"
+import { useBibleStore } from "../store/bibleStore.js"
+
+const store = useBibleStore();
+store.loadBibles();
+
+const { ara, nvi, naa, arc } = store;
 
 const props = defineProps(["book", "chapter", "defaultVersion"]);
 
