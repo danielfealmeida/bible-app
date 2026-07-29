@@ -5,7 +5,7 @@ import ara from "./data/ARA.json"
 let book = 0;
 let chapter = 0;
 
-let checked;
+let checked = true;
 
 </script>
 
