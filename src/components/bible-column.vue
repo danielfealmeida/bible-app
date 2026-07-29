@@ -14,7 +14,7 @@ let version = props.defaultVersion;
 <template>
   <div class="ch text-light w-sm-25 mr-auto px-3 bg-dark overflow-hide border-end border-secondary">
     <div class="mx-auto my-2 w-25 d-flex justify-content-center px-2">
-        <select class="me-2 rounded-pill ps-2 bg-dark text-white border-1 border-secondary" name="version" id="version" v-model="version" v-on:change="$forceUpdate();">
+        <select class="me-2 rounded-pill ps-2 bg-dark text-white border-1 border-secondary" name="version" v-model="version" v-on:change="$forceUpdate();">
             <option key="ara" value="ara">ARA</option>
             <option key="arc" value="arc">ARC</option>
             <option key="nvi" value="nvi">NVI</option>
