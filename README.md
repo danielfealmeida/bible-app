@@ -1,7 +1,17 @@
-# bible-app
+![Screenshot Bible App](screenshot_1.png)
 
-Esse é um aplicativo feito para melhorar a qualidade do estudo bíblico. Ele mostra simultaneamente 4 versões diferentes da bíblia para comparação.
+Esse é um aplicativo feito para melhorar a qualidade do estudo bíblico. Ele mostra simultaneamente, lado a lado, 4 versões diferentes da bíblia para comparação.
 
-# URL
+Versões atualmente disponíveis:
+* **ARA**;
+* **ARC**;
+* **NVI**;
+* **NAA**;
 
-[biblia-quadrupla.netlify.app](biblia-quadrupla.netlify.app)
+Acesse [aqui](https://biblia-quadrupla.netlify.app/) a versão web.
+
+Para rodar localmente:
+* Clone o projeto;
+* Rode `npm install` na pasta;
+* Rode `npm run dev`;
+* Acesse `localhost:5173`;
